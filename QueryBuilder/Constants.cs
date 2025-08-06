@@ -17,6 +17,14 @@ namespace SqlKata
         public const string Else = "ELSE";
         public const string Then = "THEN";
         public const string End = "END";
+        public const string As = "AS";
+        public const string Asc = "ASC";
+        public const string Desc = "DESC";
+
+        public const string RowNumberPartitioned = "ROW_NUMBER() OVER (PARTITION BY";
+        public const string RowNumberOrderBy = "ROW_NUMBER() OVER (ORDER BY";
+        public const string RowNumber = "ROW_NUMBER()";
+        public const string OrderBy = "ORDER BY";
 
 
         public static string[] SpecialChar = [StartParenth, EndParenth, PushField];
